@@ -1,0 +1,319 @@
+
+@font-face {
+    font-family: 'Bradley Hand ITC';
+    src: 
+        url('/Assets/Typo-FarFromHomecoming.woff2') format('woff2'),
+        url('bradley.woff') format('woff'),
+        url('bradley.ttf') format('truetype'),
+        url('bradley.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+  }
+
+.head{
+    position: sticky;
+    top: 0;  
+    z-index: 1071;
+    min-height: 4rem;
+    background-color: #B11313;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 5px;
+    box-shadow: 5px 5px 0  1px #790606;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head nav ul, .foote ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.head nav ul li, .foote ul li{
+    margin: 0px 20px;
+    
+}
+
+.head nav ul li a, .foote ul li{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.round{
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+footer{
+    background-color: #000000;
+
+}
+
+footer p{
+    text-align: center;
+}
+.foote{
+    position: relative;
+    bottom: 0%;
+    z-index: 1071;
+    min-height: 6rem;
+    justify-content: space-around;
+    padding: 10px 5px ;
+    align-items: center;
+    width: auto;
+}
+
+.foote section#foot3 form select{
+    background-color: #B11313;
+    color: #ffffff;
+    min-width: 150px;
+    height: 30px;
+    padding: 0px 10px;
+    
+}
+
+.foote #foot2 img{
+    margin: 0px 10px;
+}
+
+.foote #foot1 li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.head a#logo{
+  max-width: 40% ; 
+  display: inline;
+}
+.head img{
+    margin: 0px 10px ;
+}
+.head img.logo1{
+    min-height: ;
+}
+.head img.logo2{
+    min-height: ;
+}
+.head img.logo3{
+    min-height: ;
+}
+
+#banniere{
+    /* padding: 0 100px; */
+}
+#hero #banniere .liste a{
+    margin-right: 20px  ;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+#hero{
+    background-image: url("/Assets/Illustration/img1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    min-height: 870px;
+    padding: 0 100px;
+    width: auto;
+}
+.btn{
+    border: #ffffff 1px solid;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn2{
+    background-color: #ffffff;
+    color: #B11313 !important;
+}
+#hero h1{
+    font-size: 90px;
+    font-family: Bradley Hand ITC;
+    font-weight: bolder;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-style: italic;
+}
+#hero h3{
+    color: #ffffff;
+    font-size: 0px;
+}
+#spiders{
+background-color: #B11313;
+padding: 50px 100px;
+}
+ h2{
+    margin: 0px;
+    font-size: 50px;
+    font-family: Bradley Hand ITC;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+}
+#spiders .spide-liste{
+    justify-content: space-between;
+    
+}
+
+p{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#spiders .spide-liste .item{
+    max-width: 25%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#spiders .spide-liste .item img{
+    width: 100%;
+}
+
+#spiders .spide-liste .item p{
+    min-height: 300px;
+}
+
+#spiders .spide-liste .item a{
+    margin: 50px 0px;
+}
+
+#become{
+    padding: 50px 100px;
+    background-image: url("/Assets/Illustration/img5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #114c92;
+    min-height: 765px;
+    width: auto;
+    justify-content: flex-end;
+}
+form {
+    padding: 0px 100px;
+}
+form .form-item{
+    margin: 15px 5px;
+}
+
+form .form-item input{
+    height: 30px;
+    width: 100%;
+    padding: 0 10px;
+}
+form .submit{
+    justify-content: center;
+    margin: 50px 5px;
+}
+form .submit button{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #114c92;
+    color: #ffffff;
+    font-weight: bold;
+    border: solid 1px #ffffff;
+    padding: 10px 50px;
+}
+
+#newsletter{
+    padding: 50px 100px;
+    background-image: url("/Assets/Illustration/img6.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #B11313;
+    min-height: 830px;
+    width: auto;
+    justify-content: flex-start;
+}
+#newsletter .form{
+    max-width: 50%;
+}
+#newsletter .form form{
+    max-width: 40%;
+}
+@media (max-width: 576px) { 
+    .head nav{
+        display: none;
+    }
+
+    section{
+        justify-content: center !important;
+    }
+ }
+
+@media (max-width: 1150px) {
+    #spiders .spide-liste .item{
+        max-width: 33%;
+    }
+}
+
+@media (max-width: 883px){
+ img{
+        max-width: 4rem;
+    }
+
+    #newsletter .form{
+        max-width: 100%;
+    }
+
+    #newsletter .form form{
+        max-width: 50%;
+        padding: 0px 50px;
+    }
+
+    #become, #spiders{
+        justify-content: center;
+    }
+}
+@media (max-width: 768px) {
+    section{
+        justify-content: center;
+    }
+    #spiders {
+        padding: 0px 20px;
+    }
+    #spiders .spide-liste{
+        flex-wrap: wrap;
+        margin: 20px 5px;
+        justify-content: center;
+    }
+    #spiders .spide-liste .item{
+        max-width: 70%;
+        padding: 0 20px;
+        text-align: center;
+        margin: 30px 5px;
+    }
+    .head nav ul li{
+        margin: 0px 10px;
+    }
+    .head nav ul li a, .foote ul li{
+        font-size: 15px;
+    }
+
+    
+}
+
+@media (max-width: 992px) { 
+
+ }
+
+@media (max-width: 1200px) { 
+    #become, #spiders{
+        justify-content: center;
+    }
+ }
