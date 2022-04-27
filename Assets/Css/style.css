@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'Bradley Hand ITC';
     src: 
-        url('/Assets/Typo-FarFromHomecoming.woff2') format('woff2'),
+        url('../Typo-FarFromHomecoming.woff2') format('woff2'),
         url('bradley.woff') format('woff'),
         url('bradley.ttf') format('truetype'),
         url('bradley.woff2') format('woff2');
@@ -116,7 +116,7 @@ footer p{
     font-weight: bold;
 }
 #hero{
-    background-image: url("/Assets/Illustration/img1.png");
+    background-image: url("../Illustration/img1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,7 +191,7 @@ p{
 
 #become{
     padding: 50px 100px;
-    background-image: url("/Assets/Illustration/img5.png");
+    background-image: url("../Illustration/img5.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,7 +231,7 @@ form .submit button{
 
 #newsletter{
     padding: 50px 100px;
-    background-image: url("/Assets/Illustration/img6.png");
+    background-image: url("../Illustration/img6.png");
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
