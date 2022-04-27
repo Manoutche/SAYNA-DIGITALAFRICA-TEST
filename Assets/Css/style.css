@@ -263,7 +263,7 @@ form .submit button{
 }
 
 @media (max-width: 883px){
- img{
+ .head img, .foote #foot2 img{
         max-width: 4rem;
     }
 
