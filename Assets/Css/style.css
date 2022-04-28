@@ -319,7 +319,7 @@ footer .foote section{
        }
 
        h3{
-           color: #ffffff;
+           color: #ffffff !important;
        }
    
        .foote ul li{
@@ -412,10 +412,7 @@ footer .foote section{
  }
 
 @media (max-width: 1250px) { 
-    #become, #spiders{
-        justify-content: center;
-        
-    }
+    
 
     p{
      font-size:15px ;   
