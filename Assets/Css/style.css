@@ -14,6 +14,7 @@
       padding: 0px;
       margin: 0px;
       width: 100%;
+      overflow-x: hidden;
   }
 
 .head{
@@ -99,15 +100,14 @@ footer p{
 .head a#logo{
   max-width: 40% ; 
   display: inline;
+  text-decoration: none;
 }
 .head img{
     margin: 0px 10px ;
 }
 
 
-#banniere{
-    /* padding: 0 100px; */
-}
+
 #hero #banniere .liste a{
     margin-right: 20px  ;
     text-decoration: none;
@@ -149,10 +149,7 @@ footer p{
     text-transform: uppercase;
     font-style: italic;
 }
-#hero h3{
-    color: #ffffff;
-    font-size: 0px;
-}
+
 #spiders{
 background-color: #B11313;
 padding: 50px 100px;
@@ -265,7 +262,9 @@ form .submit button{
     .head a#logo{
         min-width: 70%;
     }
-
+    #hero h1{
+        font-size: 50px;
+    }
     section{
         justify-content: center !important;
     }
@@ -281,6 +280,14 @@ form .submit button{
        .foote ul li{
            font-size: 10px;
            margin: 0px 5px;
+       }
+
+       #newsletter{
+           padding: 25px;
+       }
+
+       form .submit button{
+           padding: 5px 30px;
        }
  }
 
@@ -333,7 +340,9 @@ form .submit button{
         font-size: 15px;
     }
 
-    
+   #hero .liste{
+       justify-content: center;
+   }
 }
 
 @media (max-width: 992px) { 
