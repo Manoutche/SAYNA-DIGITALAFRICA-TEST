@@ -228,7 +228,7 @@ form .submit button{
     color: #ffffff;
     font-weight: bold;
     border: solid 1px #ffffff;
-    padding: 10px 50px;
+    padding: 10px 20px;
 }
 
 .form-check input{
@@ -254,11 +254,40 @@ form .submit button{
 #newsletter .form form{
     max-width: 40%;
 }
+
+.social{
+    justify-content: center;
+}
+
+.icon{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;
+    margin: 0px 10px;
+    list-style: none;
+    background-color: #B11313;
+    height:20px ;
+    width:20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon i{
+    font-size: 15px;
+    color: #000000;
+}
 @media (max-width: 576px) { 
     .head nav{
         display: none;
     }
 
+    #hero #banniere .liste a{
+        margin-right: 10px;
+    }
     .head a#logo{
         min-width: 70%;
     }
@@ -275,6 +304,10 @@ form .submit button{
    
        h2{
            font-size: 40px;
+       }
+
+       h3{
+           color: #ffffff;
        }
    
        .foote ul li{
