@@ -10,6 +10,12 @@
         font-style: normal;
   }
 
+  body{
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+  }
+
 .head{
     position: sticky;
     top: 0;  
@@ -21,6 +27,7 @@
     padding: 15px 5px;
     box-shadow: 5px 5px 0  1px #790606;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
 }
 .head nav ul, .foote ul{
     padding-left: 0;
@@ -96,15 +103,7 @@ footer p{
 .head img{
     margin: 0px 10px ;
 }
-.head img.logo1{
-    min-height: ;
-}
-.head img.logo2{
-    min-height: ;
-}
-.head img.logo3{
-    min-height: ;
-}
+
 
 #banniere{
     /* padding: 0 100px; */
@@ -123,7 +122,7 @@ footer p{
     align-items: center;
     min-height: 870px;
     padding: 0 100px;
-    width: auto;
+    width: 100%;
 }
 .btn{
     border: #ffffff 1px solid;
@@ -249,6 +248,10 @@ form .submit button{
 @media (max-width: 576px) { 
     .head nav{
         display: none;
+    }
+
+    .head a#logo{
+        min-width: 70%;
     }
 
     section{
