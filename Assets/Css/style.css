@@ -280,6 +280,14 @@ form .submit button{
     font-size: 15px;
     color: #000000;
 }
+
+footer .foote section{
+    /* width: 25%; */
+}
+
+
+
+
 @media (max-width: 576px) { 
     .head nav{
         display: none;
@@ -328,6 +336,17 @@ form .submit button{
     #spiders .spide-liste .item{
         max-width: 33%;
     }
+
+    .foote #foot1 ul{
+        flex-direction: column;
+        
+    }
+
+    .foote #foot1 ul li{
+        margin: 10px 5px;
+    }
+
+
 }
 
 @media (max-width: 883px){
@@ -375,6 +394,10 @@ form .submit button{
 
    #hero .liste{
        justify-content: center;
+   }
+
+   .foote #foot3 form{
+        padding: 20px;
    }
 }
 
