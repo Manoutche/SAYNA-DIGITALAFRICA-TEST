@@ -105,9 +105,7 @@ footer p{
 }
 
 
-#banniere{
-    /* padding: 0 100px; */
-}
+
 #hero #banniere .liste a{
     margin-right: 20px  ;
     text-decoration: none;
@@ -122,7 +120,7 @@ footer p{
     align-items: center;
     min-height: 870px;
     padding: 0 100px;
-/*     width: 100%; */
+
 }
 .btn{
     border: #ffffff 1px solid;
@@ -196,7 +194,6 @@ p{
     background-size: cover;
     background-color: #114c92;
     min-height: 765px;
-    width: auto;
     justify-content: flex-end;
 }
 form {
